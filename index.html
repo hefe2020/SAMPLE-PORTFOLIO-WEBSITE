@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300;400&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero"><h1><span>B</span>OO <span>B</span>OO</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#hero"data-after='Home'>Home</a></li>
+                        <li><a href="#services"data-after="Services">Services</a></li>
+                        <li><a href="#projects"data-after='Projects'>Projects</a></li>
+                        <li><a href="#about"data-after='About'>About</a></li>
+                        <li><a href="#contact"data-after='Contact'>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Header -->
+   <!-- Hero-section  -->
+   <section id="hero">
+    <div class="hero container">
+        <div>
+            <h1>Hello, <span></span></h1>
+            <h1>My Name is <span></span></h1>
+            <h1>Nana Adwoa <span></span></h1>
+            <a href="#projects" type="button" class="cta">PORTFOLIO</a>
+        </div>
+    </div>
+   </section>
+   <!-- End Hero-section -->
+
+   <!-- Service section -->
+   <section id="services">
+    <div class="service container">
+        <div class="service-top">
+            <h1 class="section-title">SERV<span>I</span>CES</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quisquam quaerat 
+                perspiciatis consequuntur aut alias sed nobis molestiae molestias aliquid quia 
+                eos in, explicabo repudiandae animi neque. 
+                Repellat, architecto placeat.</p>
+        </div>
+        <div class="service-bottom">
+            <div class="service-item">
+                <div class="icon"><img src="data:image/png;base64,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"> </div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a rem provident nulla nisi fugit.</p>
+
+            </div>
+            <div class="service-item">
+                <div class="icon"><img src="data:image/png;base64,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"> </div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a rem provident nulla nisi fugit.</p>
+
+            </div>
+            <div class="service-item">
+                <div class="icon"><img src="data:image/png;base64,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"> </div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a rem provident nulla nisi fugit.</p>
+
+            </div>
+            <div class="service-item">
+                <div class="icon"><img src="data:image/png;base64,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"> </div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a rem provident nulla nisi fugit.</p>
+
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- End service section -->
+   <!-- Project Section -->
+   <section id="projects">
+    <div class="projects container">
+        <div class="projects-header">
+            <h1 class="section-title">RECENT <span>PROJECTS</span></h1>
+        </div>
+        <div class="all-projects">
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>Project 1</h1>
+                    <h2>Coding is Love</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugit praesentium ipsa saepe optio rem unde tempora delectus? Corporis quae porro esse natus magni ipsa, optio tenetur sapiente cum perferendis ipsum praesentium quibusdam, veniam adipisci.</p>
+
+                </div>
+                <div class="project-img">
+                    <img src="./img/img-1.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>Project 2</h1>
+                    <h2>Coding is Love</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugit praesentium ipsa saepe optio rem unde tempora delectus? Corporis quae porro esse natus magni ipsa, optio tenetur sapiente cum perferendis ipsum praesentium quibusdam, veniam adipisci.</p>
+
+                </div>
+                <div class="project-img">
+                    <img src="./img/img-1.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>Project 3</h1>
+                    <h2>Coding is Love</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugit praesentium ipsa saepe optio rem unde tempora delectus? Corporis quae porro esse natus magni ipsa, optio tenetur sapiente cum perferendis ipsum praesentium quibusdam, veniam adipisci.</p>
+
+                </div>
+                <div class="project-img">
+                    <img src="./img/img-1.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>Project 4</h1>
+                    <h2>Coding is Love</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugit praesentium ipsa saepe optio rem unde tempora delectus? Corporis quae porro esse natus magni ipsa, optio tenetur sapiente cum perferendis ipsum praesentium quibusdam, veniam adipisci.</p>
+
+                </div>
+                <div class="project-img">
+                    <img src="./img/img-1.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>Project 5</h1>
+                    <h2>Coding is Love</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugit praesentium ipsa saepe optio rem unde tempora delectus? Corporis quae porro esse natus magni ipsa, optio tenetur sapiente cum perferendis ipsum praesentium quibusdam, veniam adipisci.</p>
+
+                </div>
+                <div class="project-img">
+                    <img src="./img/img-1.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- End project section -->
+   <!-- About section -->
+   <section id="about">
+    <div class="about container">
+        <div class="col-left">
+            <div class="about-img">
+                <img src="./img/img-6.jpg" alt="img">
+            </div>
+        </div>
+        <div class="col-right">
+            <h1 class="section-title">About <span>me</span></h1>
+            <h2>Front End Developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad atque ipsam vero ducimus vel. Enim voluptatibus necessitatibus inventore repellendus nulla reprehenderit fuga et sunt doloremque iusto rem praesentium, aut modi odit molestias ipsam tempore sapiente.</p>
+            <a href="#" class="cta">Download Resume</a>
+        </div>
+    </div>
+   </section>
+   <!-- End About section -->
+   <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+            <div><h1 class="section-title">Contact <span>info</span></h1></div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/external-anggara-filled-outline-anggara-putra/32/null/external-telephone-support-anggara-filled-outline-anggara-putra-2.png"/></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+233 54 0558261</h2>
+                        <h2>+233 54 2398789</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/50/null/apple-mail.png"/></div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>Jesse.vickers70@gmail.com</h2>
+                        <h2>gjesse3010@gmail.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/50/null/order-delivered.png"/></div>
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>DMA Mali Street 8</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- End contact section -->
+   <!-- Footer -->
+   <section id="footer">
+    <div class="footer container">
+        <div class="brand"><h1><span>N</span>ana <span>A</span>dwoa</h1></div>
+        <h2>Your Complete Web Solution</h2>
+        <div class="social-icon">
+            <div class="social-item">
+                <a href="#"><img src="https://img.icons8.com/dotty/80/null/facebook-new.png"/></a>
+            </div>
+            <div class="social-item">
+                <a href="#"><img src="https://img.icons8.com/ios/50/null/instagram-new--v1.png"/></a>
+            </div>
+            <div class="social-item">
+                <a href="#"><img src="https://img.icons8.com/dotty/80/null/twitter.png"/></a>
+            </div>
+            <div class="social-item">
+                <a href="#"><img src="https://img.icons8.com/dotty/80/null/snapchat.png"/></a>
+            </div>
+        </div>
+        <p>Copyright © 2022 HEFE. All rights reserved </p>
+    </div>
+   </section>
+   <!-- End Footer -->
+   <script src="./app.js"></script> 
+</body>
+</html>
